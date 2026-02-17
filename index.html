@@ -9,10 +9,178 @@
 </head>
 <body>
     
-        <p>After Install Tailwind CSS it makes Normalize all HTML Element</p>
-        <h1>Intro to Tailwind</h1>
-        <h3>Exploring CSS Via Utility Class</h3>
-        <p>This is exiting</p>
+        <h1 class="text-7xl text-center bg-linear-to-t from-sky-500 to-indigo-500">Intro to Tailwind</h1>
+        <h3 class="text-3xl text-center">Exploring CSS Via Utility Class</h3>
+        <p class="bg-red-500 text-center text-white">After Install Tailwind CSS it makes Normalize all HTML Element</p>
+        <!-- Tailwind Class for underline -->
+        <p class="underline bg-green-500 text-center">This is exiting</p>
+        <!-- Tailwind Class for text-center -->
+        <p class="text-center font-bold bg-linear-to-bl from-violet-500 to-fuchsia-500">I am Exploring Tailwind</p>
+        <p class="border-2">I wish i have a good journey with Tailwind</p>
+
+        <section class="w-12 border-2">
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+        <section class="w-80 border-2">
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+        <!-- w-full > width:100% -->
+        <section class="w-full border-2">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+        <!-- width: half of screen & border-2 -->
+        <section class="w-1/2 border-2">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+        <!-- Margin-left & margin-top -->
+        <section class="border-2 w-1/3 text-center ml-6 mt-6">
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+            <h3>Margin Top-6 Left-6 Test</h3>
+        </section>
+
+        <!-- border-2, width half, text-center, margin-all-6 -->
+        <section class="border-2 w-1/2 text-center m-6">
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+            <h3>Margin T-6, B-6, R-6, L-6</h3>
+        </section>
+
+        <section class="border-2 max-w-7xl">
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+            <h3>This is Test For maximum width 7xl which is 1280px</h3>
+        </section>
+
+
+        <section>
+            <div class="border-2 bg-green-500 max-w-2xl ml-20">Margin Left 20</div>
+            <div class="border-2 bg-cyan-500 max-w-2xl mt-6">Margin top 6</div>
+            <div class="border-2 bg-pink-500 max-w-2xl mb-8">Margin bottom 8</div>
+        </section>
+
+        <!-- All side Margin 4 in Section Title -->
+        <section class="w-1/2 border-2">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl border-2 m-4 text-center">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Top side Margin 4 in Section Title -->
+        <section class="w-1/2 border-2 mt-6">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl border-2 mt-4 text-center">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Margin 4 in Section Title according to x-axis-->
+        <section class="w-1/2 border-2 mt-6">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl border-2 mx-4 text-center">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Margin 4 in Section Title according to y-axis-->
+        <section class="w-1/2 border-2 mt-6">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl border-2 my-4 text-center">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Margin 0 auto > mx-auto -->
+        <section class="w-1/2 border-2 mx-auto">   
+            <h3>My Section Title</h3>
+            <h3 class="text-3xl border-2 my-4 text-center">My Section Title 2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Padding all in My section title & Padding x axix in paragraph-->
+        <section class="border-2">   
+            <h3 class="border-2 p-4">My Section Title</h3>
+            <h3>My Section Title 2</h3>
+            <p class="border-1 px-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+
+        <!-- Padding in start side-->
+        <section class="border-2">   
+            <h3 class="border-2 ps-4">My Section Title</h3>
+            <h3 class="ps-4">My Section Title 2</h3>
+            <p class="border-1 ps-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
+
+        <!-- Padding in end side-->
+        <section class="border-2">   
+            <h3 class="border-2">My Section Title</h3>
+            <h3>My Section Title 2</h3>
+            <p class="border-1 pe-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum eius inventore. Totam labore quae, magnam eum dolores inventore! Aspernatur ipsam nemo aliquid architecto, suscipit, 
+                tempore sit debitis quia vero fugiat soluta, quas dolorem necessitatibus nihil assumenda eligendi similique minima corrupti. Fuga porro ea velit possimus. Aspernatur, similique. Unde, et?
+            </p>
+        </section>
 
 </body>
 </html>
