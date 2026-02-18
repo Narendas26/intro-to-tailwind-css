@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is CDN File of Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Flex in Tailwind</title>
+</head>
+<body>
+
+    
+    <!-- responsive example: change color according to the size of the display -->
+        <section class="sm:bg-red-300 md:bg-green-500 lg:bg-yellow-500">
+            <h3 class="text-3xl">My Responsive Section</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, eum autem voluptas rerum excepturi quisquam optio sunt, quod magni consequatur a quasi! Ut qui ipsum, vitae dicta aut nobis ad.
+            </p>
+        </section>
+
+
+        <!-- Flex Layout : for large device-->
+        <section class="mt-20 lg:flex">
+            <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 1
+            </div>
+
+            <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 2
+            </div>
+
+            <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 3
+            </div>
+
+            <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 4
+            </div>
+
+            <div class="w-96 h-32 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 5
+            </div>
+        </section> 
+
+
+        <!-- Flex Practice 2: justify center-->
+
+        <section class="mt-20 flex justify-center">
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 11
+            </div>
+
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 12
+            </div>
+
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 13
+            </div>
+        </section>
+
+
+        <!-- Flex Practice 3: justify between-->
+
+        <section class="mt-20 flex justify-between">
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 11
+            </div>
+
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 12
+            </div>
+
+             <div class="w-25 h-25 text-3xl bg-purple-400 border-4 border-red-400">
+                Item 13
+            </div>
+        </section>
+</body>
+</html>
